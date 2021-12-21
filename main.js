@@ -20,10 +20,10 @@ preventCheat()
 
 
 function preventCheat() {
-    // window.addEventListener("contextmenu" , (e) => {
-    //     e.preventDefault()
-    // }
-    // )
+    window.addEventListener("contextmenu" , (e) => {
+        e.preventDefault()
+    }
+    )
     window.addEventListener("keydown" , (e) => {
         if (e.keyCode === 123) {
             e.preventDefault()
