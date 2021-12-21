@@ -1,0 +1,94 @@
+[{
+    "Q": {
+        "Question" : "What is Devour meaning?",
+        "Answers" : {
+            "A": "To frighten or threaten somebody so that they will do what you want.",
+            "B": "Showing what you really think or feel.",
+            "C": "To eat all of something quickly, especially because you are very hungry.",
+            "D": "To read or look at something with great interest and enthusiasm."
+        }
+    }
+    },
+{    "Q": {
+        "Question" : "When was facebook released",
+        "Answers" : {
+            "A": "June 2005",
+            "B": "October 2003",
+            "C": "July 2001",
+            "D": "February 2004"
+        }
+    }},
+{    "Q": {
+        "Question" : "When was Google released",
+        "Answers" : {
+            "A": "1998",
+            "B": "1995",
+            "C": "1999",
+            "D": "1989"
+        }
+    }},
+{    "Q": {
+        "Question" : "What was the first Anime ever created",
+        "Answers" : {
+            "A": "Hunter X Hunter",
+            "B": "Dragon Ball Z",
+            "C": "Yu-Gi-Oh!",
+            "D": "Momotaro: Umi no Shinpei"
+        }
+    }},
+{    "Q": {
+        "Question" : "(if (A + B * A) = 25) then A = ??",
+        "Answers" : {
+            "A": "2",
+            "B": "6",
+            "C": "5",
+            "D": "3"
+        }
+    }},
+{    "Q": {
+        "Question" : "What gets wetter the more it dries",
+        "Answers" : {
+            "A": "A towel",
+            "B": "A Tissue",
+            "C": "A paper",
+            "D": "All the above"
+        }
+    }},
+{    "Q": {
+        "Question" : "What is always coming but never arrives? ",
+        "Answers" : {
+            "A": "Today",
+            "B": "Yesterday",
+            "C": "Tomorrow",
+            "D": "All the above"
+        }
+    }},
+{    "Q": {
+        "Question" : "What does “www” stand for in a website browser?",
+        "Answers" : {
+            "A": "Web World Wide",
+            "B": "Wide World Web",
+            "C": "World Whole Web",
+            "D": "World Wide Web"
+        }
+    }},
+{    "Q": {
+        "Question" : "Which operating system is developed by Apple ?",
+        "Answers" : {
+            "A": "Linux",
+            "B": "Window",
+            "C": "Mac OS",
+            "D": "DOS"
+        }
+    }},
+{    "Q": {
+        "Question" : "What is the highest IQ",
+        "Answers" : {
+            "A": "263",
+            "B": "221",
+            "C": "292",
+            "D": "200"
+        }
+    }}
+]
+

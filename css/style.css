@@ -1,0 +1,116 @@
+body {
+  font-family: "Cairo", sans-serif;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: inherit;
+  outline: none;
+  border: none;
+}
+:root {
+  --main-color: #093446;
+  --background-color: #6ee1da;
+  --q-click: #0fd9dd;
+  --word-bg: #b2e0dd;
+}
+
+.container {
+  height: 100vh;
+  background-image: linear-gradient(to top, var(--background-color) , var(--background-color) 70%, #eee);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+  padding: 20px;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  background: #5dccc5;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+}
+.top-side {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.question {
+  font-weight: bold;
+}
+.bot-side {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.bot-side > div{
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  background-color: #eee;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.span {
+  width: 35px;
+  height: 35px;
+  background: var(--word-bg);
+  position: relative;
+  border-radius: 50%;
+}
+span {
+  font-weight: bold;
+  color: var(--main-color);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50% ,-50%);
+}
+.active {
+  background-color:var(--q-click) !important;
+  color: white;
+}
+.active .span {
+  background: var(--main-color) !important;
+
+}
+.active span {
+  color: white;
+}
+#submit {
+  padding: 15px 30px;
+  font-weight: bold;
+  font-size: 20px;
+  background: var(--main-color);
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.final-result-box {
+  background: #5dccc5;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+  display: none;
+}
+@media(max-width:767px) {
+  .container {
+    height: 100%;
+  }
+  .bot-side > div {
+    padding-left: 50px;
+    position: relative;
+  }
+  .span {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
